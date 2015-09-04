@@ -159,4 +159,16 @@ abstract class AuthItem extends Model {
      * @return integer 
      */
     protected abstract function getType();
+
+
+    public function beforeSave($insert) 
+    {
+
+    }
+
+
+    public function afterSave($insert,$changedAttributes) 
+    {
+
+    }
 }
