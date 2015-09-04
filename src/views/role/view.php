@@ -1,6 +1,6 @@
 <?php
 
-use johnitvn\rbacplus\models\Role;
+use v0lume\yii2\rbac\models\Role;
 
 $permissions = Role::getPermistions($model->name);
 $first = '';

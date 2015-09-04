@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\rbacplus\models;
+namespace v0lume\yii2\rbac\models;
 
 use Yii;
 use yii\base\Model;

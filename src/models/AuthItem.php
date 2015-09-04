@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\rbacplus\models;
+namespace v0lume\yii2\rbac\models;
 
 use Yii;
 use yii\base\Model;
@@ -95,7 +95,11 @@ abstract class AuthItem extends Model {
             return false;
         }
 
-        $this->beforeSave();
+        $isNewRecord = $this->item == null ? true : false;
+        $this->isNewRecord = !$isNewRecord;
+
+        $this->beforeSave($isNewRecord);
+
         $authManager = Yii::$app->authManager;
 
         // Create new item    
@@ -120,7 +124,8 @@ abstract class AuthItem extends Model {
         $isNewRecord = $this->item == null ? true : false;
         $this->isNewRecord = !$isNewRecord;
         $this->item = $item;
-        $this->afterSave($isNewRecord);
+
+        $this->afterSave($isNewRecord, []);
 
         return true;
     }

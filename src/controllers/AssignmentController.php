@@ -1,14 +1,14 @@
 <?php
 
-namespace johnitvn\rbacplus\controllers;
+namespace v0lume\yii2\rbac\controllers;
 
 use Yii;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\helpers\Html;
-use johnitvn\rbacplus\Module;
-use johnitvn\rbacplus\models\AssignmentSearch;
-use johnitvn\rbacplus\models\AssignmentForm;
+use v0lume\yii2\rbac\Module;
+use v0lume\yii2\rbac\models\AssignmentSearch;
+use v0lume\yii2\rbac\models\AssignmentForm;
 
 /**
  * AssignmentController is controller for manager user assignment

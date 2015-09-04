@@ -1,21 +1,21 @@
 {
-    "name": "johnitvn/yii2-rbac-plus",
+    "name": "v0lume/yii2-rbac",
     "description":"Database role base access control manager for yii2",
     "type": "yii2-extension",
-    "license": "Apache-2.0",
+    "keywords": ["yii2","extension","meta","meta tags","seo","behavior","active record"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "John Martin",
-            "email": "john.itvn@gmail.com",
-            "homepage": "https://github.com/johnitvn?tab=repositories"
+            "name": "Artem Shmanovsky",
+            "email": "heads@xakep.ru"
         }
     ],    
     "support": {
-        "issues": "https://github.com/johnitvn/yii2-rbac-plus/issues?state=open",
-        "source": "https://github.com/johnitvn/yii2-rbac-plus"
+        "issues": "https://github.com/v0lume/yii2-rbac/issues?state=open",
+        "source": "https://github.com/v0lume/yii2-rbac"
     },
     "suggest": {
-        "johnitvn/yii2-user-plus": "High flexible user management extension for yii2"
+        "v0lume/yii2-meta-tags": "DB based model meta data for SEO"
     },
     "minimum-stability": "dev",
     "require": {
@@ -24,10 +24,10 @@
     },
     "autoload": {
         "psr-4": {
-            "johnitvn\\rbacplus\\": "src/"
+            "v0lume\\yii2\\rbac\\": "src/"
         }
     },
     "extra": {
-        "bootstrap": "johnitvn\\rbacplus\\Bootstrap"
+        "bootstrap": "v0lume\\yii2\\rbac\\Bootstrap"
     }
 }
