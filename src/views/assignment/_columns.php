@@ -42,14 +42,19 @@ if ($extraColums !== null) {
 }
 $columns[] = [
     'class' => 'kartik\grid\ActionColumn',
-    'template' => '{update}',
+    'template' => '<div class="btn-group btn-group-xs">{update}</div>',
     'header' => Yii::t('rbac', 'Assignment'),
     'dropdown' => false,
     'vAlign' => 'middle',
     'urlCreator' => function($action, $model, $key, $index) {
         return Url::to(['assignment', 'id' => $key]);
     },
-            'updateOptions' => ['role' => 'modal-remote', 'title' => Yii::t('rbac', 'Update'), 'data-toggle' => 'tooltip'],
+            'updateOptions' => [
+                'role' => 'modal-remote', 
+                'title' => Yii::t('rbac', 'Update'), 
+                'data-toggle' => 'tooltip',
+                'class' => 'btn btn-default',
+            ],
         ];
         return $columns;
 

@@ -1,10 +1,10 @@
-yii2-rbac-plus
+yii2-rbac
 =============
-[![Latest Stable Version](https://poser.pugx.org/johnitvn/yii2-rbac-plus/v/stable)](https://packagist.org/packages/johnitvn/yii2-rbac-plus)
-[![License](https://poser.pugx.org/johnitvn/yii2-rbac-plus/license)](https://packagist.org/packages/johnitvn/yii2-rbac-plus)
-[![Total Downloads](https://poser.pugx.org/johnitvn/yii2-rbac-plus/downloads)](https://packagist.org/packages/johnitvn/yii2-rbac-plus)
-[![Monthly Downloads](https://poser.pugx.org/johnitvn/yii2-rbac-plus/d/monthly)](https://packagist.org/packages/johnitvn/yii2-rbac-plus)
-[![Daily Downloads](https://poser.pugx.org/johnitvn/yii2-rbac-plus/d/daily)](https://packagist.org/packages/johnitvn/yii2-rbac-plus)
+[![Latest Stable Version](https://poser.pugx.org/v0lume/yii2-rbac/v/stable)](https://packagist.org/packages/v0lume/yii2-rbac)
+[![License](https://poser.pugx.org/v0lume/yii2-rbac/license)](https://packagist.org/packages/v0lume/yii2-rbac)
+[![Total Downloads](https://poser.pugx.org/v0lume/yii2-rbac/downloads)](https://packagist.org/packages/v0lume/yii2-rbac)
+[![Monthly Downloads](https://poser.pugx.org/v0lume/yii2-rbac/d/monthly)](https://packagist.org/packages/v0lume/yii2-rbac)
+[![Daily Downloads](https://poser.pugx.org/v0lume/yii2-rbac/d/daily)](https://packagist.org/packages/v0lume/yii2-rbac)
 
 Database role base access control manager for yii2
 
@@ -27,13 +27,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist johnitvn/yii2-rbac-plus "*"
+php composer.phar require --prefer-dist v0lume/yii2-rbac "*"
 ```
 
 or add
 
 ```
-"johnitvn/yii2-rbac-plus": "*"
+"v0lume/yii2-rbac": "*"
 ```
 
 to the require section of your `composer.json` file.

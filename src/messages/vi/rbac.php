@@ -57,7 +57,7 @@ return [
     'Permission name'=>'Tên permistion',
     
     /* 2. Permisstion Views */  
-    'Permisstions Manager'=>'Quản lý các permission',
+    'Permissions Manager'=>'Quản lý các permission',
     
     
     /* =========== Permisstion Manager  =============*/
